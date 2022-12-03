@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+  	<listener class-name="resources.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.pacematic.AppTest"/>
+      <class name="OrangeHRMAppTests.OHRMLogin"/>
+      <class name="OrangeHRMAppTests.OHRMForgotPasswordTest"/>
+      <class name="OrangeHRMAppTests.OHRMLoginLogoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
